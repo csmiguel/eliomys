@@ -1,0 +1,47 @@
+AJ225030	NA [ask francois.catzeflis@univ-montp2.fr for sample T-1499]
+FM164278	Belgium:Huy
+FR848957	NA [10.1111/j.1095-8312.2011.01807.x]
+FR848958	NA [10.1111/j.1095-8312.2011.01807.x]
+GQ453668	Italy: Maletto, Sicily
+GQ453669	Italy: Campo Felice, L'Aquila, Abruzzo
+HE611090	France:Hautes-Alpes
+HE611091	France:Hautes-Alpes
+HE611092	France:Hautes-Alpes
+HE611093	France:Savoie
+HE613976	France:Savoie, Saint-Ours
+HE613977	France:Savoie, Les Chapieux
+HE613978	Italy:Aosta
+HE613979	Italy:Aosta
+HE613980	Italy:Friuli-Venezia Giulia, Pordenone
+HE613981	Italy:Piedmont, Pietraporzio
+HE613982	Italy:Liguria, Triora
+HE613983	Italy:Trentino Alto Adige, Caoria
+HE613985	France:Charente, Pyrenees-Orientales, Saint Dizant du Gua, Bouillouses
+HE613986	France:Lozere, mont Lozere
+HE613987	France:Lozere, Les Fraisse
+HE613988	France:Pyrenees-Orientales
+HE613989	France:Pyrenees-Orientales, Bouillouses
+HE613990	Portugal
+HE613991	Portugal
+HE613992	Portugal
+HE613993	Spain:Balearic Islands, Formentera
+HE613994	Croatia:Dalmatia, Zivogoch
+HE613995	Italy:Sardinia, Corsica (France), Gavoie, Monte Limbara, Algajola
+HE613996	Italy:Sardinia, Gavoi
+HE613997	Italy:Sardinia, Gavoi
+HE613998	Italy:Sardinia, Gavoi
+HE613999	Italy:Umbria, Polino
+HE614000	Italy:Umbria, Polino
+HE614001	Italy:Umbria, Polino
+HE614002	Austria:Vorarlberg, Bad Laterns
+HE614003	Belgium:Brussels, Namur, Liege, Brussels, Xhoris, Villers en Fagne
+HE614004	Belgium:Brussels, Brussels
+HE614005	France:Haut-Rhin, Loiret, Hunawihr, Orleans
+HE614006	France:Normandy, Saint Philbert des Champs
+HE614007	France:Vendee, Lairoux
+HE614008	Germany:Rhineland-Palatinate, Koblenz
+JX457812	Spain:Alins, Areu
+JX457813	Spain:El Serrat, Ordino, Andorra
+JX457814	Portugal:Caramulo
+JX457815	Portugal:Lamas d'Olo, PN Alvão
+JX457816	Spain:El Serrat, Ordino, Andorra
