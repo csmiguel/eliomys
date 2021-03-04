@@ -24,4 +24,4 @@ eliom_fetch <-
                         id = ids,
                         rettype = "fasta")
 #write fasta
-write(eliom_fetch, file = "data/intermediate/eliomys_cytb.fasta")
+write(eliom_fetch, file = "data/intermediate/genbank_cytb.fasta")
