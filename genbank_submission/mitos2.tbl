@@ -1,0 +1,628 @@
+>Feature 2003101123
+1	68	gene
+			gene	trnF(gaa)
+1	68	tRNA
+			product	tRNA-PHE
+69	1034	gene
+69	1034	rRNA
+			product	s-rRNA
+1035	1101	gene
+			gene	trnV(tac)
+1035	1101	tRNA
+			product	tRNA-VAL
+1102	2670	gene
+1102	2670	rRNA
+			product	l-rRNA
+2671	2745	gene
+			gene	trnL2(taa)
+2671	2745	tRNA
+			product	tRNA-LEU2
+2748	3703	gene
+			gene	nad1
+2748	3703	CDS
+			product	NADH dehydrogenase subunit 1
+3704	3772	gene
+			gene	trnI(gat)
+3704	3772	tRNA
+			product	tRNA-ILE
+3843	3770	gene
+			gene	trnQ(ttg)
+3843	3770	tRNA
+			product	tRNA-GLN
+3848	3916	gene
+			gene	trnM(cat)
+3848	3916	tRNA
+			product	tRNA-MET
+3917	4958	gene
+			gene	nad2
+3917	4958	CDS
+			product	NADH dehydrogenase subunit 2
+			note	TAA stop codon is completed by the addition of 3' A residues to the mRNA
+			transl_except	(pos:4958,aa:TERM)
+4959	5025	gene
+			gene	trnW(tca)
+4959	5025	tRNA
+			product	tRNA-TRP
+5095	5029	gene
+			gene	trnA(tgc)
+5095	5029	tRNA
+			product	tRNA-ALA
+5178	5106	gene
+			gene	trnN(gtt)
+5178	5106	tRNA
+			product	tRNA-ASN
+5179	5214	rep_origin
+			note	origin of L-strand replication
+5281	5215	gene
+			gene	trnC(gca)
+5281	5215	tRNA
+			product	tRNA-CYS
+5346	5282	gene
+			gene	trnY(gta)
+5346	5282	tRNA
+			product	tRNA-TYR
+5356	6909	gene
+			gene	cox1
+5356	6909	CDS
+			product	cytochrome c oxidase subunit 1
+6970	6901	gene
+			gene	trnS2(tga)
+6970	6901	tRNA
+			product	tRNA-SER2
+6974	7045	gene
+			gene	trnD(gtc)
+6974	7045	tRNA
+			product	tRNA-ASP
+7047	7730	gene
+			gene	cox2
+7047	7730	CDS
+			product	cytochrome c oxidase subunit 2
+7734	7801	gene
+			gene	trnK(ttt)
+7734	7801	tRNA
+			product	tRNA-LYS
+7803	7994	gene
+			gene	atp8
+7803	7994	CDS
+			product	ATP synthase F0 subunit 8
+7964	8644	gene
+			gene	atp6
+7964	8644	CDS
+			product	ATP synthase F0 subunit 6
+8644	9427	gene
+			gene	cox3
+8644	9427	CDS
+			product	cytochrome c oxidase subunit 3
+			note	TAA stop codon is completed by the addition of 3' A residues to the mRNA
+			transl_except	(pos:9427,aa:TERM)
+9428	9497	gene
+			gene	trnG(tcc)
+9428	9497	tRNA
+			product	tRNA-GLY
+9498	9845	gene
+			gene	nad3
+9498	9845	CDS
+			product	NADH dehydrogenase subunit 3
+9847	9914	gene
+			gene	trnR(tcg)
+9847	9914	tRNA
+			product	tRNA-ARG
+9916	10212	gene
+			gene	nad4l
+9916	10212	CDS
+			product	NADH dehydrogenase subunit 4L
+10206	11583	gene
+			gene	nad4
+10206	11583	CDS
+			product	NADH dehydrogenase subunit 4
+			note	TAA stop codon is completed by the addition of 3' A residues to the mRNA
+			transl_except	(pos:11583,aa:TERM)
+11584	11653	gene
+			gene	trnH(gtg)
+11584	11653	tRNA
+			product	tRNA-HIS
+11654	11714	gene
+			gene	trnS1(gct)
+11654	11714	tRNA
+			product	tRNA-SER1
+11715	11784	gene
+			gene	trnL1(tag)
+11715	11784	tRNA
+			product	tRNA-LEU1
+11785	13596	gene
+			gene	nad5
+11785	13596	CDS
+			product	NADH dehydrogenase subunit 5
+14117	13593	gene
+			gene	nad6
+14117	13593	CDS
+			product	NADH dehydrogenase subunit 6
+14186	14118	gene
+			gene	trnE(ttc)
+14186	14118	tRNA
+			product	tRNA-GLU
+14193	15332	gene
+			gene	cytb
+14193	15332	CDS
+			product	cytochrome b
+15333	15402	gene
+			gene	trnT(tgt)
+15333	15402	tRNA
+			product	tRNA-THR
+15472	15405	gene
+			gene	trnP(tgg)
+15472	15405	tRNA
+			product	tRNA-PRO
+15473	16618	D-loop
+			note	control region
+>Feature 2011020017
+1	68	gene
+			gene	trnF(gaa)
+1	68	tRNA
+			product	tRNA-PHE
+69	1034	gene
+69	1034	rRNA
+			product	s-rRNA
+1035	1101	gene
+			gene	trnV(tac)
+1035	1101	tRNA
+			product	tRNA-VAL
+1102	2670	gene
+1102	2670	rRNA
+			product	l-rRNA
+2671	2745	gene
+			gene	trnL2(taa)
+2671	2745	tRNA
+			product	tRNA-LEU2
+2748	3703	gene
+			gene	nad1
+2748	3703	CDS
+			product	NADH dehydrogenase subunit 1
+3704	3772	gene
+			gene	trnI(gat)
+3704	3772	tRNA
+			product	tRNA-ILE
+3843	3770	gene
+			gene	trnQ(ttg)
+3843	3770	tRNA
+			product	tRNA-GLN
+3848	3916	gene
+			gene	trnM(cat)
+3848	3916	tRNA
+			product	tRNA-MET
+3917	4958	gene
+			gene	nad2
+3917	4958	CDS
+			product	NADH dehydrogenase subunit 2
+			note	TAA stop codon is completed by the addition of 3' A residues to the mRNA
+			transl_except	(pos:4958,aa:TERM)
+4959	5025	gene
+			gene	trnW(tca)
+4959	5025	tRNA
+			product	tRNA-TRP
+5095	5029	gene
+			gene	trnA(tgc)
+5095	5029	tRNA
+			product	tRNA-ALA
+5178	5106	gene
+			gene	trnN(gtt)
+5178	5106	tRNA
+			product	tRNA-ASN
+5179	5213	rep_origin
+			note	origin of L-strand replication
+5280	5214	gene
+			gene	trnC(gca)
+5280	5214	tRNA
+			product	tRNA-CYS
+5345	5281	gene
+			gene	trnY(gta)
+5345	5281	tRNA
+			product	tRNA-TYR
+5355	6908	gene
+			gene	cox1
+5355	6908	CDS
+			product	cytochrome c oxidase subunit 1
+6969	6900	gene
+			gene	trnS2(tga)
+6969	6900	tRNA
+			product	tRNA-SER2
+6973	7044	gene
+			gene	trnD(gtc)
+6973	7044	tRNA
+			product	tRNA-ASP
+7046	7729	gene
+			gene	cox2
+7046	7729	CDS
+			product	cytochrome c oxidase subunit 2
+7733	7800	gene
+			gene	trnK(ttt)
+7733	7800	tRNA
+			product	tRNA-LYS
+7802	7993	gene
+			gene	atp8
+7802	7993	CDS
+			product	ATP synthase F0 subunit 8
+7963	8643	gene
+			gene	atp6
+7963	8643	CDS
+			product	ATP synthase F0 subunit 6
+8643	9426	gene
+			gene	cox3
+8643	9426	CDS
+			product	cytochrome c oxidase subunit 3
+			note	TAA stop codon is completed by the addition of 3' A residues to the mRNA
+			transl_except	(pos:9426,aa:TERM)
+9427	9496	gene
+			gene	trnG(tcc)
+9427	9496	tRNA
+			product	tRNA-GLY
+9497	9844	gene
+			gene	nad3
+9497	9844	CDS
+			product	NADH dehydrogenase subunit 3
+9846	9913	gene
+			gene	trnR(tcg)
+9846	9913	tRNA
+			product	tRNA-ARG
+9915	10211	gene
+			gene	nad4l
+9915	10211	CDS
+			product	NADH dehydrogenase subunit 4L
+10205	11582	gene
+			gene	nad4
+10205	11582	CDS
+			product	NADH dehydrogenase subunit 4
+			note	TAA stop codon is completed by the addition of 3' A residues to the mRNA
+			transl_except	(pos:11582,aa:TERM)
+11583	11652	gene
+			gene	trnH(gtg)
+11583	11652	tRNA
+			product	tRNA-HIS
+11653	11713	gene
+			gene	trnS1(gct)
+11653	11713	tRNA
+			product	tRNA-SER1
+11714	11783	gene
+			gene	trnL1(tag)
+11714	11783	tRNA
+			product	tRNA-LEU1
+11784	13595	gene
+			gene	nad5
+11784	13595	CDS
+			product	NADH dehydrogenase subunit 5
+14116	13592	gene
+			gene	nad6
+14116	13592	CDS
+			product	NADH dehydrogenase subunit 6
+14185	14117	gene
+			gene	trnE(ttc)
+14185	14117	tRNA
+			product	tRNA-GLU
+14192	15331	gene
+			gene	cytb
+14192	15331	CDS
+			product	cytochrome b
+15332	15401	gene
+			gene	trnT(tgt)
+15332	15401	tRNA
+			product	tRNA-THR
+15471	15404	gene
+			gene	trnP(tgg)
+15471	15404	tRNA
+			product	tRNA-PRO
+15472	16617	D-loop
+			note	control region
+>Feature 2012022013
+1	68	gene
+			gene	trnF(gaa)
+1	68	tRNA
+			product	tRNA-PHE
+69	1034	gene
+69	1034	rRNA
+			product	s-rRNA
+1035	1101	gene
+			gene	trnV(tac)
+1035	1101	tRNA
+			product	tRNA-VAL
+1102	2670	gene
+1102	2670	rRNA
+			product	l-rRNA
+2671	2745	gene
+			gene	trnL2(taa)
+2671	2745	tRNA
+			product	tRNA-LEU2
+2748	3703	gene
+			gene	nad1
+2748	3703	CDS
+			product	NADH dehydrogenase subunit 1
+3704	3772	gene
+			gene	trnI(gat)
+3704	3772	tRNA
+			product	tRNA-ILE
+3843	3770	gene
+			gene	trnQ(ttg)
+3843	3770	tRNA
+			product	tRNA-GLN
+3848	3916	gene
+			gene	trnM(cat)
+3848	3916	tRNA
+			product	tRNA-MET
+3917	4958	gene
+			gene	nad2
+3917	4958	CDS
+			product	NADH dehydrogenase subunit 2
+			note	TAA stop codon is completed by the addition of 3' A residues to the mRNA
+			transl_except	(pos:4958,aa:TERM)
+4959	5025	gene
+			gene	trnW(tca)
+4959	5025	tRNA
+			product	tRNA-TRP
+5095	5029	gene
+			gene	trnA(tgc)
+5095	5029	tRNA
+			product	tRNA-ALA
+5178	5106	gene
+			gene	trnN(gtt)
+5178	5106	tRNA
+			product	tRNA-ASN
+5179	5214	rep_origin
+			note	origin of L-strand replication
+5281	5215	gene
+			gene	trnC(gca)
+5281	5215	tRNA
+			product	tRNA-CYS
+5346	5282	gene
+			gene	trnY(gta)
+5346	5282	tRNA
+			product	tRNA-TYR
+5356	6909	gene
+			gene	cox1
+5356	6909	CDS
+			product	cytochrome c oxidase subunit 1
+6970	6901	gene
+			gene	trnS2(tga)
+6970	6901	tRNA
+			product	tRNA-SER2
+6974	7045	gene
+			gene	trnD(gtc)
+6974	7045	tRNA
+			product	tRNA-ASP
+7047	7730	gene
+			gene	cox2
+7047	7730	CDS
+			product	cytochrome c oxidase subunit 2
+7734	7801	gene
+			gene	trnK(ttt)
+7734	7801	tRNA
+			product	tRNA-LYS
+7803	7994	gene
+			gene	atp8
+7803	7994	CDS
+			product	ATP synthase F0 subunit 8
+7964	8644	gene
+			gene	atp6
+7964	8644	CDS
+			product	ATP synthase F0 subunit 6
+8644	9427	gene
+			gene	cox3
+8644	9427	CDS
+			product	cytochrome c oxidase subunit 3
+			note	TAA stop codon is completed by the addition of 3' A residues to the mRNA
+			transl_except	(pos:9427,aa:TERM)
+9428	9497	gene
+			gene	trnG(tcc)
+9428	9497	tRNA
+			product	tRNA-GLY
+9498	9845	gene
+			gene	nad3
+9498	9845	CDS
+			product	NADH dehydrogenase subunit 3
+9847	9914	gene
+			gene	trnR(tcg)
+9847	9914	tRNA
+			product	tRNA-ARG
+9916	10212	gene
+			gene	nad4l
+9916	10212	CDS
+			product	NADH dehydrogenase subunit 4L
+10206	11583	gene
+			gene	nad4
+10206	11583	CDS
+			product	NADH dehydrogenase subunit 4
+			note	TAA stop codon is completed by the addition of 3' A residues to the mRNA
+			transl_except	(pos:11583,aa:TERM)
+11584	11653	gene
+			gene	trnH(gtg)
+11584	11653	tRNA
+			product	tRNA-HIS
+11654	11714	gene
+			gene	trnS1(gct)
+11654	11714	tRNA
+			product	tRNA-SER1
+11715	11784	gene
+			gene	trnL1(tag)
+11715	11784	tRNA
+			product	tRNA-LEU1
+11785	13596	gene
+			gene	nad5
+11785	13596	CDS
+			product	NADH dehydrogenase subunit 5
+14117	13593	gene
+			gene	nad6
+14117	13593	CDS
+			product	NADH dehydrogenase subunit 6
+14186	14118	gene
+			gene	trnE(ttc)
+14186	14118	tRNA
+			product	tRNA-GLU
+14193	15332	gene
+			gene	cytb
+14193	15332	CDS
+			product	cytochrome b
+15333	15402	gene
+			gene	trnT(tgt)
+15333	15402	tRNA
+			product	tRNA-THR
+15472	15405	gene
+			gene	trnP(tgg)
+15472	15405	tRNA
+			product	tRNA-PRO
+15473	16618	D-loop
+			note	control region
+>Feature 2013075014
+1	68	gene
+			gene	trnF(gaa)
+1	68	tRNA
+			product	tRNA-PHE
+69	1034	gene
+69	1034	rRNA
+			product	s-rRNA
+1035	1101	gene
+			gene	trnV(tac)
+1035	1101	tRNA
+			product	tRNA-VAL
+1102	2670	gene
+1102	2670	rRNA
+			product	l-rRNA
+2671	2745	gene
+			gene	trnL2(taa)
+2671	2745	tRNA
+			product	tRNA-LEU2
+2748	3703	gene
+			gene	nad1
+2748	3703	CDS
+			product	NADH dehydrogenase subunit 1
+3704	3772	gene
+			gene	trnI(gat)
+3704	3772	tRNA
+			product	tRNA-ILE
+3843	3770	gene
+			gene	trnQ(ttg)
+3843	3770	tRNA
+			product	tRNA-GLN
+3848	3916	gene
+			gene	trnM(cat)
+3848	3916	tRNA
+			product	tRNA-MET
+3917	4958	gene
+			gene	nad2
+3917	4958	CDS
+			product	NADH dehydrogenase subunit 2
+			note	TAA stop codon is completed by the addition of 3' A residues to the mRNA
+			transl_except	(pos:4958,aa:TERM)
+4959	5025	gene
+			gene	trnW(tca)
+4959	5025	tRNA
+			product	tRNA-TRP
+5095	5029	gene
+			gene	trnA(tgc)
+5095	5029	tRNA
+			product	tRNA-ALA
+5178	5106	gene
+			gene	trnN(gtt)
+5178	5106	tRNA
+			product	tRNA-ASN
+5179	5213	rep_origin
+			note	origin of L-strand replication
+5280	5214	gene
+			gene	trnC(gca)
+5280	5214	tRNA
+			product	tRNA-CYS
+5345	5281	gene
+			gene	trnY(gta)
+5345	5281	tRNA
+			product	tRNA-TYR
+5355	6908	gene
+			gene	cox1
+5355	6908	CDS
+			product	cytochrome c oxidase subunit 1
+6969	6900	gene
+			gene	trnS2(tga)
+6969	6900	tRNA
+			product	tRNA-SER2
+6973	7044	gene
+			gene	trnD(gtc)
+6973	7044	tRNA
+			product	tRNA-ASP
+7046	7729	gene
+			gene	cox2
+7046	7729	CDS
+			product	cytochrome c oxidase subunit 2
+7733	7800	gene
+			gene	trnK(ttt)
+7733	7800	tRNA
+			product	tRNA-LYS
+7802	7993	gene
+			gene	atp8
+7802	7993	CDS
+			product	ATP synthase F0 subunit 8
+7963	8643	gene
+			gene	atp6
+7963	8643	CDS
+			product	ATP synthase F0 subunit 6
+8643	9426	gene
+			gene	cox3
+8643	9426	CDS
+			product	cytochrome c oxidase subunit 3
+			note	TAA stop codon is completed by the addition of 3' A residues to the mRNA
+			transl_except	(pos:9426,aa:TERM)
+9427	9496	gene
+			gene	trnG(tcc)
+9427	9496	tRNA
+			product	tRNA-GLY
+9497	9844	gene
+			gene	nad3
+9497	9844	CDS
+			product	NADH dehydrogenase subunit 3
+9846	9913	gene
+			gene	trnR(tcg)
+9846	9913	tRNA
+			product	tRNA-ARG
+9915	10211	gene
+			gene	nad4l
+9915	10211	CDS
+			product	NADH dehydrogenase subunit 4L
+10205	11582	gene
+			gene	nad4
+10205	11582	CDS
+			product	NADH dehydrogenase subunit 4
+			note	TAA stop codon is completed by the addition of 3' A residues to the mRNA
+			transl_except	(pos:11582,aa:TERM)
+11583	11652	gene
+			gene	trnH(gtg)
+11583	11652	tRNA
+			product	tRNA-HIS
+11653	11713	gene
+			gene	trnS1(gct)
+11653	11713	tRNA
+			product	tRNA-SER1
+11714	11783	gene
+			gene	trnL1(tag)
+11714	11783	tRNA
+			product	tRNA-LEU1
+11784	13595	gene
+			gene	nad5
+11784	13595	CDS
+			product	NADH dehydrogenase subunit 5
+14116	13592	gene
+			gene	nad6
+14116	13592	CDS
+			product	NADH dehydrogenase subunit 6
+14185	14117	gene
+			gene	trnE(ttc)
+14185	14117	tRNA
+			product	tRNA-GLU
+14192	15331	gene
+			gene	cytb
+14192	15331	CDS
+			product	cytochrome b
+15332	15401	gene
+			gene	trnT(tgt)
+15332	15401	tRNA
+			product	tRNA-THR
+15471	15404	gene
+			gene	trnP(tgg)
+15471	15404	tRNA
+			product	tRNA-PRO
+15472	16617	D-loop
+			note	control region

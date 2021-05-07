@@ -1,0 +1,4 @@
+WARNING: valid [SEQ_INST.CompleteCircleProblem] Circular topology without complete flag set BIOSEQ: lcl|2003101123: raw, dna len= 16618
+WARNING: valid [SEQ_INST.CompleteCircleProblem] Circular topology without complete flag set BIOSEQ: lcl|2011020017: raw, dna len= 16617
+WARNING: valid [SEQ_INST.CompleteCircleProblem] Circular topology without complete flag set BIOSEQ: lcl|2012022013: raw, dna len= 16618
+WARNING: valid [SEQ_INST.CompleteCircleProblem] Circular topology without complete flag set BIOSEQ: lcl|2013075014: raw, dna len= 16617

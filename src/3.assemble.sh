@@ -1,5 +1,11 @@
-
 #!bin/bash
+########
+# (c) Miguel Camacho Sánchez
+# https://orcid.org/0000-0002-6385-7963
+# github.com/csmiguel/eliomys
+########
+#Assemble mitogenome. Map reads to reference using bwa
+#remove PCR duplicates with samtools
 #index reference
 bwa index data/intermediate/eliomys-reference.fasta
 #map to novoplasty reference

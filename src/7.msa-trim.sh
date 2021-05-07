@@ -1,4 +1,10 @@
 #!bin/bash
+########
+# (c) Miguel Camacho Sánchez
+# https://orcid.org/0000-0002-6385-7963
+# github.com/csmiguel/eliomys
+########
+#msa, trimming of msa and convert to nexus
 mafft --auto data/intermediate/all-cytb.fasta > data/intermediate/eliomys.mafft.fasta
 
 #remove residues with more than 0.5 of missing data

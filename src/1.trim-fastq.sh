@@ -1,4 +1,9 @@
 #!bin/bash
+########
+# (c) Miguel Camacho Sánchez
+# https://orcid.org/0000-0002-6385-7963
+# github.com/csmiguel/eliomys
+########
 #get samples
 ls data/raw/*fastq.gz | sed -e 's|.*/||;s|\..*$||' | sort | uniq | \
 while read sample

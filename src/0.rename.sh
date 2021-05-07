@@ -1,6 +1,11 @@
 #!bin/bash
-#this script is run first and not included in the open repository.
-#it renames the fastq with the r
+########
+# (c) Miguel Camacho Sánchez
+# https://orcid.org/0000-0002-6385-7963
+# github.com/csmiguel/eliomys
+########
+#this script is run once
+#renames fastq files with clean sample names
 ls data/raw/*_[1-2].fastq.gz |  while read fq
 do
  dnaext=$(basename $fq | cut -d_ -f1)

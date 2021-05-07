@@ -1,5 +1,6 @@
-/data/intermediate
+/data/intermediate/*
+!/data/intermediate/.gitkeep
 /etc
-/output
+/manuscript
 /test
 *DS_Store

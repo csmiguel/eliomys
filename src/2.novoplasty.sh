@@ -1,6 +1,13 @@
 #!bin/bash
-#I created a F and Reverse files with all trimmed (cutadapt) sequences from all Eliomys samples.
-#in that way novoplasty has more data to generate a unique mitochondrial contig.
+# (c) Miguel Camacho Sánchez
+# https://orcid.org/0000-0002-6385-7963
+# github.com/csmiguel/eliomys
+#Mitogenome assembly with Novoplasty3 to create a reference mitogenome for Eliomys.
+#I pooled F and R trimmed files to increase coverage and be able to reconstruct
+# the control region. Previous test with the individual files failed to assemble
+# correctly the mitogenome. By the time I created this script the closes mitogenome
+# in genebank was from Glis glis. By the time of submitting the paper there is
+# a mitogenome from E. quercinus.
 #as seed I used cytb from Eliomys from genebank.
 #the output is an unique contig.
 
@@ -17,5 +24,5 @@ perl src/NOVOPlasty3.7.pl -c src/test.novoplasty-config.txt
 
 rm contigs*
 mv Circularized_assembly* data/intermediate/eliomys-reference.fasta
-mv log_* data/intermediate
-#I then manually copy-paste the sequence in the contig to start with tRNA-phe
+mv log_* output/
+#I then manually set the coordinate 1 of the reference mitogenome  to start at tRNA-phe

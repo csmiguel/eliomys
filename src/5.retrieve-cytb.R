@@ -1,7 +1,7 @@
 ###.............................................................................
 # (c) Miguel Camacho Sánchez
-# miguelcamachosanchez@gmail.com // miguelcamachosanchez.weebly.com
-# https://scholar.google.co.uk/citations?user=1M02-S4AAAAJ&hl=en
+# https://orcid.org/0000-0002-6385-7963
+# github.com/csmiguel/eliomys
 # January 2021
 ###.............................................................................
 #GOAL: retrieve cytb from genbank of Eliomys quercinus

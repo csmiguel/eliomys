@@ -1,5 +1,9 @@
 #!bin/bash
-
+########
+# (c) Miguel Camacho Sánchez
+# https://orcid.org/0000-0002-6385-7963
+# github.com/csmiguel/eliomys
+########
 #create multifasta with cytb from genbank plus cytb from assembled mitogenomes
 #1. create multifasta from assembled mitogenomes
 rm data/intermediate/cytb-assembled.fasta

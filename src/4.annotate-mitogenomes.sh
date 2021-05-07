@@ -1,4 +1,9 @@
 #!bin/bash
+########
+# (c) Miguel Camacho Sánchez
+# https://orcid.org/0000-0002-6385-7963
+# github.com/csmiguel/eliomys
+########
 #annotate the mitogenomes
 cd data/intermediate
 seqkit seq -ni mitogenomes-eliomys.fasta | while read sample
