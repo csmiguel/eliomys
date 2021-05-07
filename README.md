@@ -1,4 +1,4 @@
-#Complete mitogenome of the garden dormouse (_Eliomys quercinus_)
+# Complete mitogenome of the garden dormouse (_Eliomys quercinus_)
 
 Giovanni Forcina, Miguel-Camacho Sanchez, Anna Cornellas, Jennifer Leonard. Complete mitogenome of the garden dormouse (_Eliomys quercinus_): a new tool for the genetic monitoring of a fast-declining European small mammal. submitted.
 
@@ -15,3 +15,13 @@ Final haplotype networks were reconstructed with [PopArt](https://doi.org/10.111
 
 ## Phylogenetic reconstructions
 Phylogenetic reconstructions were done with scripts src/phylo*, but not included in the final publication because the low support of the nodes in the tree.
+
+## Annotated mitochondrial genomes
+Mitogenomes were deposited in GenBank under the BioProject [PRJNA727082](https://www.ncbi.nlm.nih.gov/bioproject/727082): Genetic resources for small mammals.
+
+| sample            | species           | BioSample    | accession no. | SRA         |
+|-------------------|-------------------|--------------|---------------|-------------|
+| EBD 2003.101.123M | Eliomys quercinus | SAMN19006130 | MZ130252      | SRR14415825 |
+| EBD 2011.020.017M | Eliomys quercinus | SAMN19006131 | MZ130253      | SRR14415824 |
+| EBD 2013.075.014M | Eliomys quercinus | SAMN19006132 | MZ130255      | SRR14415823 |
+| EBD 2012.022.013M | Eliomys quercinus | SAMN19006133 | MZ130254      | SRR14415822 |
