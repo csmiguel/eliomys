@@ -1,0 +1,8 @@
+Model selection results for subset: 82e3c61d3ad033ebf6adf6517ff61ad6
+Subset alignment stored here: ./analysis/phylofiles/82e3c61d3ad033ebf6adf6517ff61ad6.phy
+This subset contains the following data_blocks: trnapro, trnagly
+Number of columns in subset: 139
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -433.41278      | 886.2209         | 884.82556       | 911.23584      

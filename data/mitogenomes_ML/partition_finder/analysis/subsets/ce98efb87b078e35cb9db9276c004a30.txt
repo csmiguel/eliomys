@@ -1,0 +1,8 @@
+Model selection results for subset: ce98efb87b078e35cb9db9276c004a30
+Subset alignment stored here: ./analysis/phylofiles/ce98efb87b078e35cb9db9276c004a30.phy
+This subset contains the following data_blocks: trnacys, trnatyr
+Number of columns in subset: 137
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -342.69272      | 704.80273        | 703.38544       | 729.6653       

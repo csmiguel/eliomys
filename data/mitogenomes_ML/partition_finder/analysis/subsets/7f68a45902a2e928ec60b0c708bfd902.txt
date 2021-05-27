@@ -1,0 +1,8 @@
+Model selection results for subset: 7f68a45902a2e928ec60b0c708bfd902
+Subset alignment stored here: ./analysis/phylofiles/7f68a45902a2e928ec60b0c708bfd902.phy
+This subset contains the following data_blocks: ATP6_1, COX2_3, COX1_3
+Number of columns in subset: 969
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -4102.015       | 8222.218         | 8222.03         | 8265.917       

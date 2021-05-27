@@ -1,0 +1,8 @@
+Model selection results for subset: 136715ba8454cf5985b4f195845862c5
+Subset alignment stored here: ./analysis/phylofiles/136715ba8454cf5985b4f195845862c5.phy
+This subset contains the following data_blocks: ND5_1, ND2_1
+Number of columns in subset: 951
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -3110.2444      | 6238.68          | 6238.489        | 6282.2065      

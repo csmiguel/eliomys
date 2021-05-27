@@ -1,0 +1,8 @@
+Model selection results for subset: 9776b8eef3feee3448ce167a218b0c65
+Subset alignment stored here: ./analysis/phylofiles/9776b8eef3feee3448ce167a218b0c65.phy
+This subset contains the following data_blocks: trnaser, trnaleu
+Number of columns in subset: 146
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -292.13336      | 603.5903         | 602.2667        | 629.1192       

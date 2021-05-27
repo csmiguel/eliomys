@@ -1,0 +1,8 @@
+Model selection results for subset: 4e7f766d1efc73aa74dbe60629c0efa2
+Subset alignment stored here: ./analysis/phylofiles/4e7f766d1efc73aa74dbe60629c0efa2.phy
+This subset contains the following data_blocks: CYTB_3, ND5_3, COX3_3
+Number of columns in subset: 1245
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -5236.3374      | 10490.82         | 10490.675       | 10536.816      

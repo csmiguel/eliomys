@@ -1,0 +1,8 @@
+Model selection results for subset: fb712990e05c68b0bb7050f3ce2b6f9e
+Subset alignment stored here: ./analysis/phylofiles/fb712990e05c68b0bb7050f3ce2b6f9e.phy
+This subset contains the following data_blocks: trnaala, trnaval, ATP8_3, trnathr
+Number of columns in subset: 270
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -827.84094      | 1674.3741        | 1673.6819       | 1706.0676      

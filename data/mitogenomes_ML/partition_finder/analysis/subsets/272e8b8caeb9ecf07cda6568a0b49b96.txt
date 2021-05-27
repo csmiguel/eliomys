@@ -1,0 +1,8 @@
+Model selection results for subset: 272e8b8caeb9ecf07cda6568a0b49b96
+Subset alignment stored here: ./analysis/phylofiles/272e8b8caeb9ecf07cda6568a0b49b96.phy
+This subset contains the following data_blocks: ND4_1, ATP8_1
+Number of columns in subset: 517
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -1997.1754      | 4012.7058        | 4012.3508       | 4050.5833      

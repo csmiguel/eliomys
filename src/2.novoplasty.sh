@@ -5,10 +5,10 @@
 #Mitogenome assembly with Novoplasty3 to create a reference mitogenome for Eliomys.
 #I pooled F and R trimmed files to increase coverage and be able to reconstruct
 # the control region. Previous test with the individual files failed to assemble
-# correctly the mitogenome. By the time I created this script the closes mitogenome
-# in genebank was from Glis glis. By the time of submitting the paper there is
+# correctly the control region. By the time I created this script the closest mitogenome
+# in genbank was from Glis glis. By the time of submitting the paper there is
 # a mitogenome from E. quercinus.
-#as seed I used cytb from Eliomys from genebank.
+#As seed I used cytb from Eliomys quercinus from genebank.
 #the output is an unique contig.
 
 #create pooled fastq with all samples
@@ -25,4 +25,5 @@ perl src/NOVOPlasty3.7.pl -c src/test.novoplasty-config.txt
 rm contigs*
 mv Circularized_assembly* data/intermediate/eliomys-reference.fasta
 mv log_* output/
-#I then manually set the coordinate 1 of the reference mitogenome  to start at tRNA-phe
+#I then manually set the coordinate 1 of the reference mitogenome to start at
+# position 1 of tRNA-phe
