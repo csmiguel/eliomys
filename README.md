@@ -1,6 +1,6 @@
 # Complete mitogenome of the garden dormouse (_Eliomys quercinus_)
 
-Giovanni Forcina, Miguel-Camacho Sanchez, Anna Cornellas, Jennifer Leonard. Complete mitogenome of the garden dormouse (_Eliomys quercinus_): a new tool for the genetic monitoring of a fast-declining European small mammal. submitted.
+Giovanni Forcina, Miguel-Camacho Sanchez, Anna Cornellas, Jennifer Leonard. Complete mitogenome of the garden dormouse (_Eliomys quercinus_): a new resource for the genetic monitoring of a fast-declining European small mammal. submitted.
 
 ## Mitogenome assembly and annotation
 Adapter trimming and minimal quality filtering on the 3' end were performed with [cutadapt 2.10](https://doi.org/10.14806/ej.17.1.200) using [script1](src/1.trim-fastq.sh).
@@ -17,7 +17,7 @@ Using [script7](src/7.msa-trim.sh), cytb sequences were aligned using [mafft v7.
 Final haplotype networks were reconstructed with [PopArt](https://doi.org/10.1111/2041-210X.12410), using the TCS algorithm. The msa NEXUS file is available in [output/cyb-network.nex](output/cyb-network.nex).
 
 ## Phylogenetic reconstructions
-Phylogenetic reconstructions were done with scripts src/phylo*, but not included in the final publication because of the low support of the nodes in the tree.
+A maximum likelihood tree was reconstructed with 1st and 2nd codon positions of protein-coding genes from all mitogenomes of Gliridae available in GenBank. Initial trees with Sciuridae included lots of saturated positions. I tried then a ML tree with only dormice and *Glis glis* as basal to all of them, as in [Upham et al. 2019](https://doi.org/10.1371/journal.pbio.3000494). The [final tree](output/RAxML_bipartitions.mito.tree) was produced following [these steps](src/mitogenomes_ML.txt) and [this DNA alignment](raxml.phy).
 
 ## Annotated mitochondrial genomes
 Mitogenomes were deposited in GenBank under the BioProject [PRJNA727082](https://www.ncbi.nlm.nih.gov/bioproject/727082): Genetic resources for small mammals.
