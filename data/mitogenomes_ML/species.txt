@@ -1,0 +1,9 @@
+genbank_accession   species suborder:family:subfamily
+HE978360    Graphiurus kelleni  Sciuromorpha:Gliridae:Graphiurinae
+MZ130252    Eliomys quercinus   Sciuromorpha:Gliridae:Leithiinae
+MZ130253    Eliomys quercinus   Sciuromorpha:Gliridae:Leithiinae
+MZ130254    Eliomys quercinus   Sciuromorpha:Gliridae:Leithiinae
+MZ130255    Eliomys quercinus   Sciuromorpha:Gliridae:Leithiinae
+NC_001892   Glis glis   Sciuromorpha:Gliridae:Glirinae
+NC_050264   Muscardinus avellanarius    Sciuromorpha:Gliridae:Leithiinae
+MN935777    Eliomys quercinus   Sciuromorpha:Gliridae:Leithiinae

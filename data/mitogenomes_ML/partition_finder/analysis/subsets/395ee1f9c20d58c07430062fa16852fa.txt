@@ -1,8 +1,0 @@
-Model selection results for subset: 395ee1f9c20d58c07430062fa16852fa
-Subset alignment stored here: ./analysis/phylofiles/395ee1f9c20d58c07430062fa16852fa.phy
-This subset contains the following data_blocks: ND4_3, ATP8_2, ND4L_1, ND4_2
-Number of columns in subset: 1075
-Models are organised according to their AICc scores
-
-Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
-GTR+G           | 9               | -3389.6226      | 6797.414         | 6797.245        | 6842.066       

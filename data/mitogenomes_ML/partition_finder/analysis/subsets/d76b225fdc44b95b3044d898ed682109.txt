@@ -1,8 +1,0 @@
-Model selection results for subset: d76b225fdc44b95b3044d898ed682109
-Subset alignment stored here: ./analysis/phylofiles/d76b225fdc44b95b3044d898ed682109.phy
-This subset contains the following data_blocks: l-rRNA, trnaser2
-Number of columns in subset: 1659
-Models are organised according to their AICc scores
-
-Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
-GTR+G           | 9               | -4986.7256      | 9991.561         | 9991.451        | 10040.177      

@@ -1,8 +1,0 @@
-Model selection results for subset: 64906333d36d84aaed90a5def4b9c717
-Subset alignment stored here: ./analysis/phylofiles/64906333d36d84aaed90a5def4b9c717.phy
-This subset contains the following data_blocks: trnaglu, trnaleu, trnaarg, trnagln, trnalys, trnaasp, trnahis, trnaile, trnaphe, trnatrp
-Number of columns in subset: 653
-Models are organised according to their AICc scores
-
-Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
-GTR+G           | 9               | -1520.6141      | 3059.5083        | 3059.2283       | 3099.5625      

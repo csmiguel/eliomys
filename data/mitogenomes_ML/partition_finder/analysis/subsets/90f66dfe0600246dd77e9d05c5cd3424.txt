@@ -1,8 +1,0 @@
-Model selection results for subset: 90f66dfe0600246dd77e9d05c5cd3424
-Subset alignment stored here: ./analysis/phylofiles/90f66dfe0600246dd77e9d05c5cd3424.phy
-This subset contains the following data_blocks: COX3_1, CYTB_1, ND1_1, ATP6_2, COX2_1
-Number of columns in subset: 1417
-Models are organised according to their AICc scores
-
-Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
-GTR+G           | 9               | -3649.1338      | 7316.3955        | 7316.2676       | 7363.574       

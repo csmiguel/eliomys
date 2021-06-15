@@ -1,0 +1,66 @@
+# align mitogenomes ( MAFFT v7.453 )
+mafft data/mitogenomes_ML/mitogenomes.fasta > data/mitogenomes_ML/mito_mafft.fasta
+
+# convert to phylip
+/Applications/AMAS.py convert --in-files data/mitogenomes_ML/mito_mafft.fasta \
+--in-format fasta \
+-d dna \
+--out-format phylip
+mv mito_mafft.fasta-out.phy data/mitogenomes_ML/mito_mafft.phy
+
+#partition scheme and models of evolution. The partitions in the .cfg file are
+# created by hand after the annotations of the mitogenomes in genbank. Codon
+# positions 1,2,3 are separated, and d-loop discarded.
+source activate py27
+cp data/mitogenomes_ML/mito_mafft.phy data/mitogenomes_ML/partition_finder/
+python /Applications/partitionfinder-2.1.1/PartitionFinder.py data/mitogenomes_ML/partition_finder --raxml --no-ml-tree --force-restart
+conda deactivate
+
+#split dna alignment with AMAS. The goal is to eliminate all positions for which there is not a model of evolution, since raxml do not allow them.
+/Applications/AMAS.py split --in-files data/mitogenomes_ML/mito_mafft.phy \
+--in-format phylip \
+-d dna \
+--out-format fasta \
+-l data/mitogenomes_ML/split_amas.txt
+# remove little informative sites
+#gblocks
+for coding in data/mitogenomes_ML/*out.fas
+do
+/Applications/Gblocks $coding -t=d -e=-gb1 -b1=5 -d=n -b5=n
+done
+#concatenate the resulting partitions
+/Applications/AMAS.py concat -i data/mitogenomes_ML/*fas-gb1 \
+--in-format fasta \
+-d dna \
+--out-format phylip \
+--part-format raxml
+#move files for raxml analysis
+mv concatenated.out data/mitogenomes_ML/raxml.phy
+mv partitions.txt data/mitogenomes_ML/raxml_partitions.txt
+
+# Maximum Likelihood tree
+p=$(pwd)
+raxml -f a -m GTRGAMMA -p 12345 -x 12345 -N 100 \
+-s $p/data/mitogenomes_ML/raxml.phy -n mito.tree \
+-T2 -q $p/data/mitogenomes_ML/raxml_partitions.txt
+
+# beast tree (not included in final version)
+# 1. preparation beauti files
+mkdir data/mitogenomes_ML/beast
+for fasta in data/mitogenomes_ML/*fas-gb1
+do
+b=$(echo $fasta | sed -e 's|fas-gb1|fasta|;s|mitogenomes_ML|mitogenomes_ML/beast|')
+cp $fasta $b
+done
+## prepare partitionfinder files for beast
+rm -rf data/mitogenomes_ML/beast/partition_finder
+cp -r data/mitogenomes_ML/partition_finder data/mitogenomes_ML/beast/partition_finder
+rm data/mitogenomes_ML/beast/partition_finder/log.txt
+rm -rf data/mitogenomes_ML/beast/partition_finder/analysis
+cat data/mitogenomes_ML/beast/partition_finder/partition_finder.cfg |\
+sed 's|models = GTR+G|models = beast|' > temp
+mv temp data/mitogenomes_ML/beast/partition_finder/partition_finder.cfg
+# run partition finder for beast
+source activate py27
+python /Applications/partitionfinder-2.1.1/PartitionFinder.py data/mitogenomes_ML/beast/partition_finder --force-restart --no-ml-tree
+conda deactivate

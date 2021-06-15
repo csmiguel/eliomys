@@ -1,8 +1,0 @@
-Model selection results for subset: a53fd6572a91cc7af4ae6a45b3a24000
-Subset alignment stored here: ./analysis/phylofiles/a53fd6572a91cc7af4ae6a45b3a24000.phy
-This subset contains the following data_blocks: ATP6_3, ND1_2, ND5_2
-Number of columns in subset: 1148
-Models are organised according to their AICc scores
-
-Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
-GTR+G           | 9               | -2528.946       | 5076.0503        | 5075.892        | 5121.304       
