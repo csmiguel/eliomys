@@ -1,4 +1,6 @@
-# Complete mitogenome of the garden dormouse (_Eliomys quercinus_)
+[![DOI](https://zenodo.org/badge/337977089.svg)](https://zenodo.org/badge/latestdoi/337977089)
+
+# Complete mitogenomes of the garden dormouse (_Eliomys quercinus_)
 
 Forcina, G., Camacho–Sanchez, M., Cornellas, A., Leonard, J. A., 2022. Complete mitogenomes reveal limited genetic variability in the garden dormouse *Eliomys quercinus* of the Iberian Peninsula. **Animal Biodiversity and Conservation**
 
