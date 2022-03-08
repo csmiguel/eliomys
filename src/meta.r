@@ -1,3 +1,7 @@
+# (c) Miguel Camacho Sánchez
+# https://orcid.org/0000-0002-6385-7963
+# github.com/csmiguel/eliomys
+# create meta data table
 meta <- data.frame(
   stringsAsFactors = FALSE,
   sample = c("AJ225030","FM164278","FR848957",
